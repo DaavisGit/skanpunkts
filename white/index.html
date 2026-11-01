@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="lv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f7">
+  <meta name="description" content="Skanpunkts. Mēs vienmēr esam tur, kur ballīte.">
+  <title>Skanpunkts — baltā versija</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../logo_balts.png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <main class="page" id="top" data-theme="white">
+    <header class="topbar">
+      <a class="wordmark" href="#top" aria-label="Skanpunkts sākums">
+        <img class="brand-logo" src="../logo.png" alt="Skanpunkts">
+      </a>
+      <a class="top-link" href="mailto:info@skanpunkts.lv">Sazinies <span aria-hidden="true">&#8599;</span></a>
+    </header>
+    <section class="hero" aria-labelledby="page-title">
+      <h1 class="eyebrow" id="page-title">Skanpunkts</h1>
+      <p class="intro">Vieta, kur dzimst skaņa, satikšanās un iedvesma.<br>Te cilvēki aug kopā ar mūziku.</p>
+    </section>
+    <section class="details" aria-labelledby="details-title">
+      <h2 class="eyebrow" id="details-title">Par mums</h2>
+      <div class="details-grid">
+        <figure class="scroll-reveal founder-figure">
+          <img src="../1.jpg" alt="Raimonds un Ivo mūzikas studijā pie skaņas pults" loading="lazy">
+          <figcaption>Dibinātāji Raimonds un Ivo, kuru mērķis ir radīt vidi, kurā ikviens, neatkarīgi no vecuma un pieredzes, var iemācīties, eksperimentēt un attīstīt savu radošo balsi.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="events-section" data-events-gallery aria-labelledby="events-title">
+      <div class="events-header">
+        <h2 class="eyebrow" id="events-title">Pasākumi</h2>
+        <div class="events-navigation" role="group" aria-label="Pasākumu lapas" hidden>
+          <button class="events-nav-button" type="button" data-events-previous aria-label="Iepriekšējie pasākumi" title="Iepriekšējie pasākumi" disabled>&#8592;</button>
+          <span class="events-page-status" aria-live="polite"></span>
+          <button class="events-nav-button" type="button" data-events-next aria-label="Nākamie pasākumi" title="Nākamie pasākumi" disabled>&#8594;</button>
+        </div>
+      </div>
+      <div class="events-grid" id="events-grid"></div>
+    </section>
+  </main>
+  <script src="../script.js" defer></script>
+</body>
+</html>
